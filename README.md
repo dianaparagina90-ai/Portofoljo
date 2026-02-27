@@ -18,3 +18,5 @@ Uppfyllda krav
 - Logisk mappstruktur (/styles, /assets)
 - 0 errors i HTML-validator
 - 0 errors i CSS-validator
+
+https://dianaparagina90-ai.github.io/Portofoljo/ 
