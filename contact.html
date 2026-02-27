@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,14 +34,23 @@
             </ul>            
         </div>
         
+        <h3>Kontakt</h3>
         <div class="contact">
-            <h3>Kontakt</h3>
-
-            
-
+        <form action="https://postman-echo.com/get" method="get" class="form">
+            <fieldset>
+            <label for="fname">Förnamn</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Efternamn</label>
+            <input type="text" id="lname" name="lname" required> <br>
+            <label for="description">Beskriv vad ska jag hjälpa med</label>
+            <textarea id="description" name="description" required></textarea>
+            </fieldset>
+            <input type="submit" value="Skicka" formtarget="_blank">
+        </form>
         </div>
-        </main>
-        <footer class="footer">
+        
+    </main>
+    <footer class="footer">
         <p>&copy; Diana Paragina</p>
     </footer>
 </body>
