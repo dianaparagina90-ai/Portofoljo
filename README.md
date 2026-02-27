@@ -8,13 +8,13 @@ Målgruppen är framtida arbetsgivare och rekryterare.
 
 ## Uppfyllda krav
 
-- [x] Minst tre HTML-sidor
-- [x] Semantisk HTML (header, nav, main, section, article, footer)
-- [x] Flexbox används
-- [x] CSS Grid används
-- [x] Responsiv design (480px & 768px)
-- [x] Alt-texter på bilder
-- [x] Kontaktformulär
-- [x] Logisk mappstruktur (/styles, /assets)
-- [x] 0 errors i HTML-validator
-- [x] 0 errors i CSS-validator
+- Minst tre HTML-sidor
+- Semantisk HTML (header, nav, main, section, article, footer)
+- Flexbox används
+- CSS Grid används
+- Responsiv design (480px & 768px)
+- Alt-texter på bilder
+- Kontaktformulär
+- Logisk mappstruktur (/styles, /assets)
+- 0 errors i HTML-validator
+- 0 errors i CSS-validator
