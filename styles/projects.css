@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+div {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    align-items: start;
+    margin: 10px;
+    padding: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    line-height: 2;
+}
+
+article img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+}
+article p {
+    line-height: 1.6;
+    text-align: center;
+
+}

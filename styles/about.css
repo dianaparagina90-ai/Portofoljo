@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    line-height: 1.6;
+    flex:1;
+    margin: 20px;
+    
+}
+
+.middle {
+    grid-area: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.6;
+}
+
+.middle p {
+    text-indent: 2rem;
+}
+
+

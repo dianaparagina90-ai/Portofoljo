@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <script>
+        let index = 0;
+
+        function autoSlide() {
+        const track = document.querySelector(".carousel-track");
+        const slides = document.querySelectorAll(".carousel figure");
+
+        index++;
+        if (index >= slides.length) {
+            index = 0;
+        }
+
+        track.style.transform = `translateX(-${index * 300}px)`;
+        }
+
+        setInterval(autoSlide, 3000); // byter var 3:e sekund
+    </script>
+    <title>Portofoljo</title>
+</head>
+<body class="main-container">
+    <nav class="navbar">
+        <a href="./startpage.html">Startsida</a>
+        <a href="./projects.html">Mina projekt</a>
+        <a href="./about.html">Om mig</a>
+        <a href="./contact.html">Kompetenser & Kontakt</a>
+    </nav>
+    <main class="container">
+    <header class="header">
+        <h1>Diana Paragina</h1>
+        <h2>Backend developer student</h2>
+       <a class="btn" href="./projects.html" >Läs mer om mina projekt</a>
+    </header>
+    <section class="left">
+        <h3>Mina projekt</h3>
+        <div class="carousel">
+            <div class="carousel-track">
+                <figure>
+             <img src="./assets/project-danisgodis.png" alt="Webpage Danis Godis bakery">
+             <figcaption>Danis godis</figcaption>
+             </figure>
+             <figure>
+            <img src="./assets/project-inloggningssida.png" alt="Webpage login">
+            <figcaption>Inloggningssida</figcaption>
+            </figure>
+            <figure>
+            <img src="./assets/project-gissa-nummer.png" alt="spel gissa numret">
+            <figcaption>Gissa nummer</figcaption>
+            </figure>
+            </div>
+        </div>
+        <a class="btn" href="./projects.html">Läs mer</a>
+           
+    </section>
+    <section class="middle">
+            <h3>Om mig</h3>
+            <p>Hej, Diana heter jag. Jag är ursprungligen från Rumänien men har bott i Stockholm sedan 2011. Efter många år inom ekonomi valde jag att följa mitt långvariga teknikintresse och utbildar mig nu till backendutvecklare...</p>
+            <a class="btn" href="./about.html">Läs mer</a>
+    </section>
+    <section class="right">
+        <h3>Kompetenser & Kontakt</h3>
+        <div>
+            <h4>Backend</h4>
+            <ul>
+                <li>HTML&CSS</li>
+                <li>Javascript</li>
+                <li>Git & GitHub</li>
+            </ul>          
+        </div>
+        <div>
+            <h4>Kontakt</h4>
+        </div>
+        <a class="btn" href="./contact.html">Läs mer</a>
+    </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; Diana Paragina</p>
+    </footer>
+    
+</body>
+</html>

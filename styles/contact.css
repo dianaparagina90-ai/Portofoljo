@@ -1,0 +1,27 @@
+.right {
+    grid-area: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+.right li {
+    list-style-type: none;
+   
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.competens {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.6;
+}
