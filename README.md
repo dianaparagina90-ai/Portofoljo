@@ -6,7 +6,7 @@ Detta är en personlig portfolio-webbplats skapad för att presentera mig som ba
 
 Målgruppen är framtida arbetsgivare och rekryterare.
 
-## Uppfyllda krav
+Uppfyllda krav
 
 - Minst tre HTML-sidor
 - Semantisk HTML (header, nav, main, section, article, footer)
